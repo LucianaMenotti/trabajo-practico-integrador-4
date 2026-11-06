@@ -25,23 +25,9 @@ console.log(rol);
 
 // ¿En qué se parecen y en qué se diferencian?
 
-let estadoActual: Estado = Estado.CANCELADO;
-let rolActual: Rol = "GUEST";
-
-console.log(estadoActual);
-console.log(rolActual);
 console.log(typeof Estado);
 
 // ¿En qué situaciones se puede usar cada uno?
-
-interface Usuario {
-  nombre: string;
-  rol: Rol;
-}
-
-const usuario: Usuario = { nombre: "Luciana Menotti", rol: "USER" };
-
-console.log(usuario);
 
 const Prioridad = {
   ALTA: "ALTA",
