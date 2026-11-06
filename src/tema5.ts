@@ -37,7 +37,7 @@ interface Perfil {
 }
 
 const perfilSinEdad: Perfil = { nombre: "Luciana Menotti" };
-const perfilConEdad: Perfil = { nombre: "Luciana Menotti", edad: 25 };
+const perfilConEdad: Perfil = { nombre: "Luciana Menotti", edad: 19 };
 
 console.log(perfilSinEdad);
 console.log(perfilConEdad);
